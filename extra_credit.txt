@@ -1,0 +1,3 @@
+Exercise 4:
+
+1 - Not necessarily in this case, because the same number is returned. But you should use a floating point number, because you can't "round down" a person. People need to be considered as whole numbers.

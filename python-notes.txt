@@ -1,0 +1,14 @@
+Python Characters:
+
+< -> less-than
+> -> greater-than
+<= -> less-than-equal
+>= -> greater-than-equal
+
+Math operations follow the PEMDAS order, so do parenthesis, exponents, multiplication, division, addition and then subtraction.
+
+% is referred to modulo. So if you have 30 % 9, 9 will go into 30 3 times and have 3 left over, so the answer is 3. Modulo always refers to the remainder. If you have 14 % 30, the answer is 14, because 30 can't go into 14, not even once.
+
+Variables: Variables are simply names given to chunks of code, so that programmers can more easily remember those chunks of code and what they do.
+
+Format string: A string is any piece of text that appears between double quotes. Essentially think of it as a bit of code your program might give to a human.

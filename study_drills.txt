@@ -1,0 +1,7 @@
+You should do more research on Floating Point numbers, from exercise 3.
+
+Exercise 4:
+The author received that error because he had not defined the car_pool_capacity variable on line 7, as he does in his final bit of code. Since that variable wasn't defined, but was then referenced, Python had no way to know the value of that variable and crapped out.
+
+Exercise 5:
+You should read more about old string formats and new string formats, and figure out the difference.
