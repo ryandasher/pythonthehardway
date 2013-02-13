@@ -12,3 +12,12 @@ Math operations follow the PEMDAS order, so do parenthesis, exponents, multiplic
 Variables: Variables are simply names given to chunks of code, so that programmers can more easily remember those chunks of code and what they do.
 
 Format string: A string is any piece of text that appears between double quotes. Essentially think of it as a bit of code your program might give to a human.
+
+Tuple: Used when you need to pass multiple strings in one statement, e.g. -> "Who are you? %s Who are you? %s" % (Ryan, Dave)
+
+%s - Call in string text.
+
+%d - Call in integers.
+
+%r - Call in anything. Use for debugging, since it calls in "raw data."
+

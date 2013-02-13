@@ -5,3 +5,7 @@ The author received that error because he had not defined the car_pool_capacity 
 
 Exercise 5:
 You should read more about old string formats and new string formats, and figure out the difference.
+
+Exercise 6:
+3 - I believe there are six places that strings are called within strings in this exercise. In lines 2, 8, 16, 18, and 23.
+4 - This actually seems logical. If you're going to add two strings together, you would presume an addition sign would denote that....
