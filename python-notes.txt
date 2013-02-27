@@ -19,5 +19,14 @@ Tuple: Used when you need to pass multiple strings in one statement, e.g. -> "Wh
 
 %d - Call in integers.
 
-%r - Call in anything. Use for debugging, since it calls in "raw data."
+%r - Call in anything. Use for debugging, since it calls in "raw data." This will give you the "raw programmer's" version of the variable, also known as the "representation."
 
+Having a line of more than 80 characters is considered bad style in Python.
+
+When you're using try / except blocks, the try ... except Exception, E is great for debugging, because it will catch any errors. Not recommended for production code, though.
+
+Try and Except blocks are handy when you need your code to gracefully fail if a network condition isn't being met. This way your page doesn't return a 500 error if one part of the page is broken.
+
+You don't need to put quotes around True or False because then Python will think they are simply a string, and things won't work right.
+
+You can use %s to print out non-ASCII characters.

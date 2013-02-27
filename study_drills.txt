@@ -9,3 +9,6 @@ You should read more about old string formats and new string formats, and figure
 Exercise 6:
 3 - I believe there are six places that strings are called within strings in this exercise. In lines 2, 8, 16, 18, and 23.
 4 - This actually seems logical. If you're going to add two strings together, you would presume an addition sign would denote that....
+
+Exercise 8:
+2 - I believe that the last line of output, starting at line 7, has both single and double quotes because there is an apostrophe in the string that renders within double quotes. This probably makes for easier readability.
