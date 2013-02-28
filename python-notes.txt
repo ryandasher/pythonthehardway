@@ -30,3 +30,5 @@ Try and Except blocks are handy when you need your code to gracefully fail if a 
 You don't need to put quotes around True or False because then Python will think they are simply a string, and things won't work right.
 
 You can use %s to print out non-ASCII characters.
+
+If you want to start a string on a new line in the output, then put a \n in front of the word where the new line should begin. This is similar to what you did in PERL, when you wanted the format of the e-mail to break between lines.
