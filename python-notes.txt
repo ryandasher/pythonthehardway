@@ -32,3 +32,24 @@ You don't need to put quotes around True or False because then Python will think
 You can use %s to print out non-ASCII characters.
 
 If you want to start a string on a new line in the output, then put a \n in front of the word where the new line should begin. This is similar to what you did in PERL, when you wanted the format of the e-mail to break between lines.
+
+The backslash is a handy means of escaping, and putting difficult-to-type characters into a string. You can put a backslash into a string by using two backslashes!
+
+Escape sequences -
+\\ - escapes backslash.
+\' - escapes single quote, use if the string is wrapped in single quotes.
+\" - escapes double quote, use if the string is wrapped in double quotes.
+\a - ASCII Bell (BEL).
+\b - ASCII Backspace (BS).
+\f - ASCII Formfeed (FF).
+\n - ASCII Linefeed (LF).
+\N{name} - Character named name in the Unicode database (Unicode only).
+\r ASCII - Carriage return (CR).
+\t ASCII - Horizontal Tab (TAB).
+\uxxxx - Character with 16-bit hex value xxxx (Unicode only).
+\uxxxxxxxx - Character with 32-bit hex value xxxxxxxx.
+\v - ASCII Vertical Tab (VT).
+\ooo - Character with octal value ooo.
+\xhh - Character with hex value hh.
+
+%r will not escape, because it's printing out the raw representation of what you've typed. You will need to use %s to see your escape sequences.

@@ -12,3 +12,6 @@ Exercise 6:
 
 Exercise 8:
 2 - I believe that the last line of output, starting at line 7, has both single and double quotes because there is an apostrophe in the string that renders within double quotes. This probably makes for easier readability.
+
+Exercise 10:
+2 - I don't fully understand why one would use ''' (triple-single-quote) instead of """ (triple-double-quote). According to Stack Overflow, you would only need to use one over the other if the other is represented in your string.
