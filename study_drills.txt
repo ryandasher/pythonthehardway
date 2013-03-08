@@ -15,3 +15,8 @@ Exercise 8:
 
 Exercise 10:
 2 - I don't fully understand why one would use ''' (triple-single-quote) instead of """ (triple-double-quote). According to Stack Overflow, you would only need to use one over the other if the other is represented in your string.
+
+Exercise 11:
+1 - The raw_input returns a string.
+2 & 3 - See the ex11-extra.py file.
+4 - The slash appears in the output because you're using %r, which shows the raw data. If you you used %s, the slash would not appear.
