@@ -53,3 +53,13 @@ Escape sequences -
 \xhh - Character with hex value hh.
 
 %r will not escape, because it's printing out the raw representation of what you've typed. You will need to use %s to see your escape sequences.
+
+open(...) - The open method/function will open a file using the file() type, returns a file object. Use pydoc for more.
+
+Imports help you, and other programmers reading your code, determine what features you're going to be using in your script (or python file). This helps to keep your programs small.
+
+If you see argv in a programming language, it is commonly referred to as the "argument variable."
+
+When you're importing something, it is referred to as a module, or library.
+
+
