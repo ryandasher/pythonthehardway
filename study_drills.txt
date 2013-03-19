@@ -26,3 +26,8 @@ Exercise 12:
 
 Exercise 13:
 1 - The error will appear when you don't give it enough arguments. If you need four arguments, and you only provide three, then it will say it needs more than three arguments to unpack.
+
+Exercise 15:
+2 - Searching Google for "pythong THING" will find answers for what that THING does in Python. So, for example, searching "pythong open" should bring you all sorts of information on open.
+3 - Commands can also be referred to as functions and methods. This is in reference to using the open command in this exercise.
+5 - I would imagine that prompting for the filename would be better because then your user doesn't have to pass an argument when running the Python file.
