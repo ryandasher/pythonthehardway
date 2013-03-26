@@ -62,4 +62,28 @@ If you see argv in a programming language, it is commonly referred to as the "ar
 
 When you're importing something, it is referred to as a module, or library.
 
+Here are some important commands to remember:
+    close -- Closes the file. Like File -> Save.. in your editor.
+    read -- Reads the contents of the file, you can assign the result to a variable.
+    readline -- Reads just one line of a text file.
+    truncate -- Empties the file, watch out if you care about the file.
+    write(stuff) -- Writes stuff to the file.
+    
+The import statement is a way to get other Python code into your set up.
+
+From a file system perspective, packages are directories and modules are files.
+
+Cat, or concatenate, will print out the contents of the file.
+
+len() will get the length of a string.
+
+Closing a file at the end of your Python script is just general good practice, and can save you from many headaches if you don't close a file and Python doesn't close the file as soon as it's done executing (which opens some of the time). If the file remains open it could tie up resources and might not be saved.
+
+Functions can do three things:
+    1 - They name pieces of code the way variables name strings and numbers.
+    2 - They take arguments the way your scripts take argv.
+    3 - Using #1 and #2 they let you make your own "mini scripts" or "tiny commands."
+    
+
+
 
