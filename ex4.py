@@ -27,5 +27,3 @@ print "We need to put about", average_passengers_per_car, "in each car."
 # Study drill 1: Using a floating point number in this case is not necessary. you get the same result if you use a simple integer.
 
 # Study drill 2: Floating point numbers use scientific notation, so they're more precise than integers.
-
-# Study drill
